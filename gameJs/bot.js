@@ -1,10 +1,10 @@
 class Bot {
-    constructor(x, y) {
-        this.X = x;
-        this.Y = y;
+    constructor() {
+        this.X = 0;
+        this.Y = 0;
 
-        this.whereX = x;
-        this.whereY = y;
+        this.whereX = 0;
+        this.whereY = 0;
 
         this.speed = 2;
     }
